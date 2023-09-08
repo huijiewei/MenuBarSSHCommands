@@ -124,9 +124,9 @@ struct MenuBarSSHCommandsApp: App {
                 }
             }
             Divider()
-            Button("Edit", action: openJSONFile)
+            Button("编辑", action: openJSONFile)
             //Button("Reload", action: buttonContainerStore.loadButtonContainer)
-            Button("Quit", action: {
+            Button("退出", action: {
                NSApplication.shared.terminate(nil)
            })
         }
